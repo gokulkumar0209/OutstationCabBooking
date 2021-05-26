@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Navigated to Cabs]]>
+    </line>
+    <line>
+      <![CDATA[One Way Radio button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Entered source city as Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Entering Destination city as Delhi]]>
+    </line>
+    <line>
+      <![CDATA[ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same]]>
+    </line>
+    <line>
+      <![CDATA[Entering Destination City as Manali, Himachal Pradesh]]>
+    </line>
+    <line>
+      <![CDATA[Selecting a future booking Date as 19 Aug 2021]]>
+    </line>
+    <line>
+      <![CDATA[Selecting pick-up time as 10:00 AM]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search]]>
+    </line>
+    <line>
+      <![CDATA[SUV is selected]]>
+    </line>
+    <line>
+      <![CDATA[Filter is set to show Price Low to High]]>
+    </line>
+    <line>
+      <![CDATA[
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295]]>
+    </line>
+    <line>
+      <![CDATA[The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Hotels]]>
+    </line>
+  </reporter-output>
+  <suite name="mmtAutomation" duration-ms="62204" started-at="2021-05-26T13:33:38Z" finished-at="2021-05-26T13:34:41Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TS3_bookACab.clickSearch()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="clickSearch" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterDepartureDate()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterDepartureDate" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterDestinationCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterDestinationCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterSameCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterSameCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterSourceCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterSourceCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.selectOneWayBooking()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="selectOneWayBooking" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.selectPickupTime()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="selectPickupTime" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS4_searchResultCabs.displayAvailableCars()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="displayAvailableCars" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.displayLowestPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="displayLowestPrice" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.filterPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="filterPrice" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.selectCarType()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="selectCarType" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS5_groupGifting.enterCardDetails()[pri:0, instance:testScenarios.TS5_groupGifting@1d082e88]" name="enterCardDetails" class="testScenarios.TS5_groupGifting"/>
+        <method signature="TS5_groupGifting.selectGroupGifting()[pri:0, instance:testScenarios.TS5_groupGifting@1d082e88]" name="selectGroupGifting" class="testScenarios.TS5_groupGifting"/>
+        <method signature="TS6_bookHotel.enterCheckInDate()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterCheckInDate" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.enterCheckOutDate()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterCheckOutDate" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.enterRooms()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterRooms" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.selectCity()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="selectCity" class="testScenarios.TS6_bookHotel"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TS1_navigateToCabs.navigateToCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@75f32542]" name="navigateToCabs" class="testScenarios.TS1_navigateToCabs"/>
+        <method signature="TS1_navigateToCabs.popUppresent()[pri:0, instance:testScenarios.TS1_navigateToCabs@75f32542]" name="popUppresent" class="testScenarios.TS1_navigateToCabs"/>
+        <method signature="TS2_navigateToGiftCards.navigateToGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@60704c]" name="navigateToGiftCard" class="testScenarios.TS2_navigateToGiftCards"/>
+        <method signature="TS2_navigateToHotels.checkforPopUps()[pri:0, instance:testScenarios.TS2_navigateToHotels@6b19b79]" name="checkforPopUps" class="testScenarios.TS2_navigateToHotels"/>
+        <method signature="TS2_navigateToHotels.navigateToHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6b19b79]" name="navigateToHotels" class="testScenarios.TS2_navigateToHotels"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="All Tests" duration-ms="62204" started-at="2021-05-26T13:33:38Z" finished-at="2021-05-26T13:34:41Z">
+      <class name="testScenarios.TS1_navigateToCabs">
+        <test-method status="PASS" signature="initiateCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@75f32542]" name="initiateCabs" is-config="true" duration-ms="88" started-at="2021-05-26T19:03:38Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method status="PASS" signature="initiateGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@60704c]" name="initiateGiftCard" is-config="true" duration-ms="4" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateGiftCard -->
+        <test-method status="PASS" signature="initiateHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6b19b79]" name="initiateHotels" is-config="true" duration-ms="13" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateHotels -->
+        <test-method status="PASS" signature="initiateCabs()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="initiateCabs" is-config="true" duration-ms="3" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method status="PASS" signature="initiateCabs()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="initiateCabs" is-config="true" duration-ms="6" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method status="PASS" signature="initiateGiftCard()[pri:0, instance:testScenarios.TS5_groupGifting@1d082e88]" name="initiateGiftCard" is-config="true" duration-ms="1" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateGiftCard -->
+        <test-method status="PASS" signature="initiateHotels()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="initiateHotels" is-config="true" duration-ms="17" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateHotels -->
+        <test-method status="PASS" signature="popUppresent()[pri:0, instance:testScenarios.TS1_navigateToCabs@75f32542]" name="popUppresent" duration-ms="206" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUppresent -->
+        <test-method status="PASS" signature="navigateToCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@75f32542]" name="navigateToCabs" duration-ms="1777" started-at="2021-05-26T19:03:39Z" finished-at="2021-05-26T19:03:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Navigated to Cabs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToCabs -->
+      </class> <!-- testScenarios.TS1_navigateToCabs -->
+      <class name="testScenarios.TS3_bookACab">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="startTest" is-config="true" duration-ms="21727" started-at="2021-05-26T19:03:17Z" finished-at="2021-05-26T19:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="selectOneWayBooking()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="selectOneWayBooking" duration-ms="556" started-at="2021-05-26T19:03:41Z" finished-at="2021-05-26T19:03:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[One Way Radio button is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectOneWayBooking -->
+        <test-method status="PASS" signature="enterSourceCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterSourceCity" duration-ms="2546" started-at="2021-05-26T19:03:41Z" finished-at="2021-05-26T19:03:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered source city as Delhi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterSourceCity -->
+        <test-method status="PASS" signature="enterSameCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterSameCity" duration-ms="4183" started-at="2021-05-26T19:03:44Z" finished-at="2021-05-26T19:03:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Destination city as Delhi]]>
+            </line>
+            <line>
+              <![CDATA[ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterSameCity -->
+        <test-method status="PASS" signature="enterDestinationCity()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterDestinationCity" duration-ms="2089" started-at="2021-05-26T19:03:48Z" finished-at="2021-05-26T19:03:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Destination City as Manali, Himachal Pradesh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDestinationCity -->
+        <test-method status="PASS" signature="enterDepartureDate()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="enterDepartureDate" duration-ms="1807" started-at="2021-05-26T19:03:50Z" finished-at="2021-05-26T19:03:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selecting a future booking Date as 19 Aug 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDepartureDate -->
+        <test-method status="PASS" signature="selectPickupTime()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="selectPickupTime" duration-ms="1128" started-at="2021-05-26T19:03:52Z" finished-at="2021-05-26T19:03:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selecting pick-up time as 10:00 AM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectPickupTime -->
+        <test-method status="PASS" signature="clickSearch()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="clickSearch" duration-ms="8000" started-at="2021-05-26T19:03:53Z" finished-at="2021-05-26T19:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Search]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:testScenarios.TS3_bookACab@78b729e6]" name="exitBrowser" is-config="true" duration-ms="6834" started-at="2021-05-26T19:04:41Z" finished-at="2021-05-26T19:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS3_bookACab -->
+      <class name="testScenarios.TS2_navigateToGiftCards">
+        <test-method status="PASS" signature="navigateToGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@60704c]" name="navigateToGiftCard" duration-ms="456" started-at="2021-05-26T19:04:32Z" finished-at="2021-05-26T19:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGiftCard -->
+      </class> <!-- testScenarios.TS2_navigateToGiftCards -->
+      <class name="testScenarios.TS4_searchResultCabs">
+        <test-method status="PASS" signature="selectCarType()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="selectCarType" duration-ms="4857" started-at="2021-05-26T19:04:01Z" finished-at="2021-05-26T19:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUV is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCarType -->
+        <test-method status="PASS" signature="filterPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="filterPrice" duration-ms="1062" started-at="2021-05-26T19:04:06Z" finished-at="2021-05-26T19:04:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Filter is set to show Price Low to High]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterPrice -->
+        <test-method status="PASS" signature="displayAvailableCars()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="displayAvailableCars" duration-ms="4717" started-at="2021-05-26T19:04:07Z" finished-at="2021-05-26T19:04:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayAvailableCars -->
+        <test-method status="PASS" signature="displayLowestPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@7692d9cc]" name="displayLowestPrice" duration-ms="3314" started-at="2021-05-26T19:04:12Z" finished-at="2021-05-26T19:04:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayLowestPrice -->
+      </class> <!-- testScenarios.TS4_searchResultCabs -->
+      <class name="testScenarios.TS2_navigateToHotels">
+        <test-method status="PASS" signature="navigateToHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6b19b79]" name="navigateToHotels" duration-ms="7606" started-at="2021-05-26T19:04:15Z" finished-at="2021-05-26T19:04:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Hotels]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToHotels -->
+        <test-method status="PASS" signature="checkforPopUps()[pri:0, instance:testScenarios.TS2_navigateToHotels@6b19b79]" name="checkforPopUps" duration-ms="719" started-at="2021-05-26T19:04:23Z" finished-at="2021-05-26T19:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforPopUps -->
+      </class> <!-- testScenarios.TS2_navigateToHotels -->
+      <class name="testScenarios.TS6_bookHotel">
+        <test-method status="PASS" signature="selectCity()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="selectCity" duration-ms="4473" started-at="2021-05-26T19:04:23Z" finished-at="2021-05-26T19:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method status="PASS" signature="enterCheckInDate()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterCheckInDate" duration-ms="1896" started-at="2021-05-26T19:04:28Z" finished-at="2021-05-26T19:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCheckInDate -->
+        <test-method status="PASS" signature="enterCheckOutDate()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterCheckOutDate" duration-ms="591" started-at="2021-05-26T19:04:30Z" finished-at="2021-05-26T19:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCheckOutDate -->
+        <test-method status="PASS" signature="enterRooms()[pri:0, instance:testScenarios.TS6_bookHotel@2a32de6c]" name="enterRooms" duration-ms="1612" started-at="2021-05-26T19:04:30Z" finished-at="2021-05-26T19:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRooms -->
+      </class> <!-- testScenarios.TS6_bookHotel -->
+      <class name="testScenarios.TS5_groupGifting">
+        <test-method status="PASS" signature="selectGroupGifting()[pri:0, instance:testScenarios.TS5_groupGifting@1d082e88]" name="selectGroupGifting" duration-ms="8325" started-at="2021-05-26T19:04:32Z" finished-at="2021-05-26T19:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGroupGifting -->
+        <test-method status="PASS" signature="enterCardDetails()[pri:0, instance:testScenarios.TS5_groupGifting@1d082e88]" name="enterCardDetails" duration-ms="11" started-at="2021-05-26T19:04:41Z" finished-at="2021-05-26T19:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCardDetails -->
+      </class> <!-- testScenarios.TS5_groupGifting -->
+    </test> <!-- All Tests -->
+  </suite> <!-- mmtAutomation -->
+</testng-results>

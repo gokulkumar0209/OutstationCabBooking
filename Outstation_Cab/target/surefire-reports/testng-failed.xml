@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [mmtAutomation]" parallel="none">
+  <test name="All Tests(failed)" parallel="none">
+    <classes>
+      <class name="testScenarios.TS3_bookACab">
+        <methods>
+          <include name="initiateCabs"/>
+          <include name="startTest"/>
+          <include name="exitBrowser"/>
+          <include name="enterSameCity"/>
+          <include name="clickSearch"/>
+        </methods>
+      </class> <!-- testScenarios.TS3_bookACab -->
+      <class name="testScenarios.TS5_groupGifting">
+        <methods>
+          <include name="initiateGiftCard"/>
+        </methods>
+      </class> <!-- testScenarios.TS5_groupGifting -->
+      <class name="testScenarios.TS2_navigateToGiftCards">
+        <methods>
+          <include name="initiateGiftCard"/>
+        </methods>
+      </class> <!-- testScenarios.TS2_navigateToGiftCards -->
+      <class name="testScenarios.TS2_navigateToHotels">
+        <methods>
+          <include name="checkforPopUps"/>
+          <include name="navigateToHotels"/>
+          <include name="initiateHotels"/>
+        </methods>
+      </class> <!-- testScenarios.TS2_navigateToHotels -->
+      <class name="testScenarios.TS6_bookHotel">
+        <methods>
+          <include name="enterCheckOutDate"/>
+          <include name="enterRooms"/>
+          <include name="initiateHotels"/>
+          <include name="enterCheckInDate"/>
+          <include name="selectCity"/>
+        </methods>
+      </class> <!-- testScenarios.TS6_bookHotel -->
+      <class name="testScenarios.TS4_searchResultCabs">
+        <methods>
+          <include name="selectCarType"/>
+          <include name="displayLowestPrice"/>
+          <include name="filterPrice"/>
+          <include name="initiateCabs"/>
+          <include name="displayAvailableCars"/>
+        </methods>
+      </class> <!-- testScenarios.TS4_searchResultCabs -->
+      <class name="testScenarios.TS1_navigateToCabs">
+        <methods>
+          <include name="navigateToCabs"/>
+          <include name="initiateCabs"/>
+        </methods>
+      </class> <!-- testScenarios.TS1_navigateToCabs -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [mmtAutomation] -->

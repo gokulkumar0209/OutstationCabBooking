@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.009" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab\target\test-classes;C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab\target\classes;C:\Users\GOKULKUMAR\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\GOKULKUMAR\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GOKULKUMAR\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GOKULKUMAR\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GOKULKUMAR\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\GOKULKUMAR\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\GOKULKUMAR\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\GOKULKUMAR\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\GOKULKUMAR\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\GOKULKUMAR\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\GOKULKUMAR\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\GOKULKUMAR\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\GOKULKUMAR\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_291\bin"/>
+    <property name="sun.java.command" value="C:\Users\GOKULKUMAR\AppData\Local\Temp\surefire4060294755528682906\surefirebooter1142295053857893140.jar C:\Users\GOKULKUMAR\AppData\Local\Temp\surefire4060294755528682906 2021-05-26T19-03-09_827-jvmRun1 surefire5926643407431959571tmp surefire_07462080317164545090tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab\target\test-classes;C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab\target\classes;C:\Users\GOKULKUMAR\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\GOKULKUMAR\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\GOKULKUMAR\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GOKULKUMAR\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GOKULKUMAR\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GOKULKUMAR\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\GOKULKUMAR\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\GOKULKUMAR\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\GOKULKUMAR\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\GOKULKUMAR\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\GOKULKUMAR\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\GOKULKUMAR\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\GOKULKUMAR\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\GOKULKUMAR\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\GOKULKUMAR\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\GOKULKUMAR\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GOKULKUMAR"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_291"/>
+    <property name="basedir" value="C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\GOKULKUMAR\AppData\Local\Temp\surefire4060294755528682906\surefirebooter1142295053857893140.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_291\lib\resources.jar;C:\Program Files\Java\jre1.8.0_291\lib\rt.jar;C:\Program Files\Java\jre1.8.0_291\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_291\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_291\lib\jce.jar;C:\Program Files\Java\jre1.8.0_291\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_291\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_291\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="GOKULKUMAR"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_291\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GOKULKUMAR\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GOKULKUMAR\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\GOKULKUMAR\workspace\Outstation_Cab\Outstation_Cab\Drivers\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_291/bin/server;C:/Program Files/Java/jre1.8.0_291/bin;C:/Program Files/Java/jre1.8.0_291/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Brackets\command;C:\apache-maven-3.8.1;%M2_HOME%\bin;C:\Users\GOKULKUMAR\AppData\Local\Microsoft\WindowsApps;;C:\Users\GOKULKUMAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\GOKULKUMAR\Downloads\Compressed\eclipse-java-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_291\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="popUppresent" classname="testScenarios.TS1_navigateToCabs" time="0.131">
+    <system-out><![CDATA[No Popup
+]]></system-out>
+    <system-err><![CDATA[1622035998203	geckodriver	INFO	Listening on 127.0.0.1:7665
+1622035999586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GOKULKUMAR\\AppData\\Local\\Temp\\rust_mozprofilecMzwXO"
+1622036001504	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622036007639	Marionette	INFO	Listening on port 51482
+1622036008039	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 26, 2021 7:03:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="navigateToCabs" classname="testScenarios.TS1_navigateToCabs" time="1.788">
+    <system-err><![CDATA[1622036020207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="selectOneWayBooking" classname="testScenarios.TS3_bookACab" time="0.546">
+    <system-err><![CDATA[1622036021290	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="enterSourceCity" classname="testScenarios.TS3_bookACab" time="2.552"/>
+  <testcase name="enterSameCity" classname="testScenarios.TS3_bookACab" time="4.169"/>
+  <testcase name="enterDestinationCity" classname="testScenarios.TS3_bookACab" time="2.107">
+    <system-err><![CDATA[JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+]]></system-err>
+  </testcase>
+  <testcase name="enterDepartureDate" classname="testScenarios.TS3_bookACab" time="1.798"/>
+  <testcase name="selectPickupTime" classname="testScenarios.TS3_bookACab" time="1.125"/>
+  <testcase name="clickSearch" classname="testScenarios.TS3_bookACab" time="8.004">
+    <system-err><![CDATA[1622036039296	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="selectCarType" classname="testScenarios.TS4_searchResultCabs" time="4.855"/>
+  <testcase name="filterPrice" classname="testScenarios.TS4_searchResultCabs" time="1.06"/>
+  <testcase name="displayAvailableCars" classname="testScenarios.TS4_searchResultCabs" time="4.718">
+    <system-out><![CDATA[
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295
+]]></system-out>
+  </testcase>
+  <testcase name="displayLowestPrice" classname="testScenarios.TS4_searchResultCabs" time="3.314">
+    <system-out><![CDATA[The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+]]></system-out>
+  </testcase>
+  <testcase name="navigateToHotels" classname="testScenarios.TS2_navigateToHotels" time="7.607"/>
+  <testcase name="checkforPopUps" classname="testScenarios.TS2_navigateToHotels" time="0.719">
+    <system-out><![CDATA[Popup occured
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="testScenarios.TS6_bookHotel" time="4.478">
+    <system-err><![CDATA[1622036064963	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+]]></system-err>
+  </testcase>
+  <testcase name="enterCheckInDate" classname="testScenarios.TS6_bookHotel" time="1.891"/>
+  <testcase name="enterCheckOutDate" classname="testScenarios.TS6_bookHotel" time="0.593"/>
+  <testcase name="enterRooms" classname="testScenarios.TS6_bookHotel" time="1.615">
+    <system-out><![CDATA[1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+]]></system-out>
+  </testcase>
+  <testcase name="navigateToGiftCard" classname="testScenarios.TS2_navigateToGiftCards" time="0.453"/>
+  <testcase name="selectGroupGifting" classname="testScenarios.TS5_groupGifting" time="8.338">
+    <system-out><![CDATA[The group_gifting page is not responding
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://www.makemytrip.com/gift-cards/, line 66: ReferenceError: $ is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="enterCardDetails" classname="testScenarios.TS5_groupGifting" time="0"/>
+</testsuite>
